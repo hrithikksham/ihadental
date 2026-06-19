@@ -1,5 +1,7 @@
 
 import { ArrowRight } from "lucide-react";
+import drAjith from "@/assets/dr-ajith.webp";
+import drKanmani from "@/assets/dr-kanmani.webp";
 
 const doctors = [
   {
@@ -8,7 +10,7 @@ const doctors = [
     qualification: "BDS, MDS",
     description:
       "Specialist in dental implants, crowns & bridges, complete dentures, and full-mouth rehabilitation with a patient-centered approach.",
-    image: "src/assets/dr-ajith.webp",
+    image: "drAjith"
   },
   {
     name: "Dr. D. Kanmani",
@@ -16,7 +18,7 @@ const doctors = [
     qualification: "BDS, MBA",
     description:
       "Focused on comprehensive patient care, treatment coordination, and delivering a seamless clinical experience.",
-    image: "src/assets/dr-kanmani.webp",
+    image: "drKanmani"
   },
 ];
 
