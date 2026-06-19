@@ -8,7 +8,7 @@ const doctors = [
     qualification: "BDS, MDS",
     description:
       "Specialist in dental implants, crowns & bridges, complete dentures, and full-mouth rehabilitation with a patient-centered approach.",
-    image: "src/assets/dr-ajith.png",
+    image: "src/assets/dr-ajith.webp",
   },
   {
     name: "Dr. D. Kanmani",
@@ -16,7 +16,7 @@ const doctors = [
     qualification: "BDS, MBA",
     description:
       "Focused on comprehensive patient care, treatment coordination, and delivering a seamless clinical experience.",
-    image: "src/assets/dr-kanmani.png",
+    image: "src/assets/dr-kanmani.webp",
   },
 ];
 
