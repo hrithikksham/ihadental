@@ -6,25 +6,19 @@ export const CLINIC = {
   description:
     "Modern dentistry with advanced technology and compassionate care.",
 
-  phone: "+91XXXXXXXXXX",
+  phone: "+91 93630 06440",
 
-  email: "contact@ihadental.com",
+  email: "ihadentalhospital@gmail.com",
 
-  website: "https://ihadental.com",
+  website: "https://ihadental.in",
 
-  whatsapp: "https://wa.me/91XXXXXXXXXX",
+  whatsapp: "https://wa.me/91 93630 06440",
 
   address: {
-    street: "",
-    city: "Bengaluru",
-    state: "Karnataka",
-    postalCode: "",
-    country: "India",
-  },
-
-  social: {
-    instagram: "",
-    facebook: "",
-    youtube: "",
-  },
+    street: "290/19, Anna Salai ",
+    city: "Patteeswaram , Kumbakonam ",
+    state: "Tamil Nadu",
+    postalCode: "612703",
+    country: "IN"
+  }
 } as const;
