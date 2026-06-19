@@ -1,67 +1,29 @@
 import { useEffect } from "react";
 
-type Props = {
+interface PageMetaProps {
   title: string;
   description: string;
-  canonical?: string;
-  image?: string;
-};
+}
 
 export default function PageMeta({
   title,
   description,
-  canonical,
-  image = "/og-default.jpg",
-}: Props) {
+}: PageMetaProps) {
   useEffect(() => {
     document.title = title;
 
-    const setMeta = (name: string, content: string, property = false) => {
-      const selector = property
-        ? `meta[property="${name}"]`
-        : `meta[name="${name}"]`;
+    let meta = document.querySelector(
+      'meta[name="description"]'
+    );
 
-      let tag = document.head.querySelector(selector);
-
-      if (!tag) {
-        tag = document.createElement("meta");
-        if (property) {
-          tag.setAttribute("property", name);
-        } else {
-          tag.setAttribute("name", name);
-        }
-        document.head.appendChild(tag);
-      }
-
-      tag.setAttribute("content", content);
-    };
-
-    setMeta("description", description);
-
-    setMeta("og:title", title, true);
-    setMeta("og:description", description, true);
-    setMeta("og:image", image, true);
-    setMeta("og:type", "website", true);
-
-    setMeta("twitter:card", "summary_large_image");
-    setMeta("twitter:title", title);
-    setMeta("twitter:description", description);
-    setMeta("twitter:image", image);
-
-    if (canonical) {
-      let link = document.querySelector(
-        'link[rel="canonical"]'
-      ) as HTMLLinkElement | null;
-
-      if (!link) {
-        link = document.createElement("link");
-        link.rel = "canonical";
-        document.head.appendChild(link);
-      }
-
-      link.href = canonical;
+    if (!meta) {
+      meta = document.createElement("meta");
+      meta.setAttribute("name", "description");
+      document.head.appendChild(meta);
     }
-  }, [title, description, canonical, image]);
+
+    meta.setAttribute("content", description);
+  }, [title, description]);
 
   return null;
 }

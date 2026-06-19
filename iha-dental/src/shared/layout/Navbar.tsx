@@ -1,7 +1,6 @@
 import { CLINIC } from "@/lib/constants";
-import { Link } from "@tanstack/react-router";
 import { Phone } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.webp";
 
 const navItems = [
   { label: "Home", href: "#top" },

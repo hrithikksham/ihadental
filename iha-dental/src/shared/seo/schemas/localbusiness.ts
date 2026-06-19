@@ -1,21 +1,30 @@
-export const localBusinessSchema = {
-  "@context": "https://schema.org",
-  "@type": "Dentist",
+export function localBusinessSchema() {
+  return {
+    "@context": "https://schema.org",
 
-  name: "IHA Dental Clinic",
+    "@type": "LocalBusiness",
 
-  image: "/og-default.jpg",
+    name: "IHA Dental",
 
-  url: "https://ihadental.in",
+    url: "https://ihadental.com",
 
-  telephone: "+91-XXXXXXXXXX",
+    telephone: "+91 9363006440",
 
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "",
-    addressLocality: "Pateswaram , Thanjavur , Kumbakonam, Darasuram",
-    addressRegion: "Tamil Nadu",
-    postalCode: "612001",
-    addressCountry: "IN",
-  },
-};
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "290/19 Anna Salai",
+      addressLocality: "Patteeswaram",
+      addressRegion: "Tamil Nadu",
+      postalCode: "612703",
+      addressCountry: "IN",
+    },
+
+    geo: {
+      "@type": "GeoCoordinates",
+
+      latitude: "11.009",
+
+      longitude: "79.373",
+    },
+  };
+}

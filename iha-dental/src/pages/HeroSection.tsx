@@ -1,6 +1,6 @@
 import Container from "@/shared/ui/Container";
 import { ArrowRight } from "lucide-react";
-import clinicMain from "@/assets/clinic-main.jpeg";
+import clinicMain from "@/assets/clinic-main.webp";
 
 function FloatingCard({
   title,
