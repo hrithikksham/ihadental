@@ -7,7 +7,7 @@ const doctors = [
     designation: "Prosthodontist & Implantologist",
     qualification: "BDS, MDS",
     description:
-      "Specializing in dental implants, full-mouth rehabilitation, and advanced restorative dentistry.",
+      "Specialist in dental implants, crowns & bridges, complete dentures, and full-mouth rehabilitation with a patient-centered approach.",
     image: "src/assets/dr-ajith.png",
   },
   {
@@ -15,7 +15,7 @@ const doctors = [
     designation: "Dental Surgeon",
     qualification: "BDS, MBA",
     description:
-      "Focused on comprehensive dental care, preventive treatments, and patient-centered clinical excellence.",
+      "Focused on comprehensive patient care, treatment coordination, and delivering a seamless clinical experience.",
     image: "src/assets/dr-kanmani.png",
   },
 ];
@@ -32,10 +32,6 @@ export default function Doctors() {
       <div className="relative mx-auto max-w-7xl px-6">
         {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-xs font-medium uppercase tracking-[0.18em] text-[#0F4C81]">
-            <span className="h-2 w-2 rounded-full bg-[#22C55E]" />
-            Our Team
-          </div>
 
           <h2 className="mt-6 text-4xl font-normal tracking-tight text-slate-950 lg:text-6xl">
             Meet our{" "}
@@ -95,16 +91,6 @@ export default function Doctors() {
               </div>
             </article>
           ))}
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="mt-16 text-center">
-          <a
-            href="#contact"
-            className="inline-flex items-center rounded-full border border-slate-200 bg-white px-8 py-4 text-sm font-semibold text-slate-900 transition-all hover:border-[#0F4C81] hover:bg-slate-50"
-          >
-            Book a Consultation
-          </a>
         </div>
       </div>
     </section>

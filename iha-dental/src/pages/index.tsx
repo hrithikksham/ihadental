@@ -1,7 +1,7 @@
 import HeroSection from "./HeroSection";
 import Services from "./Services";
 import Doctors from "./Doctors";
-import WhyIha from "./WhyIha";
+import Location from "./Location";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
 
@@ -22,12 +22,12 @@ export default function HomePage() {
         <Gallery />
       </section>
 
-      <section id="why-iha">
-        <WhyIha />
-      </section>
-
       <section id="contact">
         <Contact />
+      </section>
+
+      <section id="Location">
+        <Location />
       </section>
     </>
   );
