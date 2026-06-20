@@ -58,10 +58,11 @@ export default function HeroSection() {
             </p>
 
             <div className="mt-10">
-              <button className="inline-flex items-center rounded-full border border-slate-200 bg-white px-8 py-5 text-base font-medium text-slate-900 transition-all duration-300 hover:border-[#0F4C81] hover:bg-slate-50">
+              <a href ="#services" className="inline-flex items-center rounded-full border border-[#D4A437] bg-white px-8 py-5 text-base font-medium text-slate-900 transition-all duration-300 hover:border-[#0F4C81] hover:bg-slate-50">
+                
                 Explore Treatments
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </button>
+              </a>
             </div>
           </div>
 
