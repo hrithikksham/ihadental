@@ -6,7 +6,7 @@ import drKanmani from "@/assets/dr-kanmani.webp";
 const doctors = [
   {
     name: "Dr. S. Ajith Bose",
-    designation: "Prosthodontist & Implantologist",
+    designation: "Maxillofacial Prosthodontist & Implantologist",
     qualification: "BDS, MDS",
     description:
       "Specialist in dental implants, crowns & bridges, complete dentures, and full-mouth rehabilitation with a patient-centered approach.",
