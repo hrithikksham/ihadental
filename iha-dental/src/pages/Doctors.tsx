@@ -9,7 +9,7 @@ const doctors = [
     designation: "Maxillofacial Prosthodontist & Implantologist",
     qualification: "BDS, MDS",
     description:
-      "Specialist in dental implants, crowns & bridges, complete dentures, and full-mouth rehabilitation with a patient-centered approach.",
+      "Restoring smiles, function, and confidence through advanced prosthodontic excellence",
     image: drAjith,
   },
   {
