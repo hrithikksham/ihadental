@@ -1,7 +1,7 @@
 
 import gallery1 from "@/assets/clinic-01.jpg";
 import gallery2 from "@/assets/clinic-02.jpg";
-import gallery3 from "@/assets/clinic-03.jpg";
+import gallery3 from "@/assets/clinic-03.webp";
 
 const galleryImages = [
   {
