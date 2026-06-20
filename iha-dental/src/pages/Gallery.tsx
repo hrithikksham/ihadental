@@ -20,7 +20,7 @@ const galleryImages = [
     image: gallery3,
     title: "Clinical Excellence",
     description:
-      "Restoring smiles, function, and confidence through advanced prosthodontic excellence",
+      "Where clinical expertise meets compassionate, patient-centered dental excellence.",
   },
 ];
 
