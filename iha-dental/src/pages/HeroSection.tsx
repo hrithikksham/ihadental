@@ -1,6 +1,6 @@
 import Container from "@/shared/ui/Container";
 import { ArrowRight } from "lucide-react";
-import clinicMain from "@/assets/clinic-main.webp";
+import clinicMain from "@/assets/clinicmain.webp";
 
 function FloatingCard({
   title,
@@ -34,7 +34,7 @@ export default function HeroSection() {
   return (
     <section className="relative overflow-hidden pb-20 pt-28 lg:pb-28 lg:pt-40">
       {/* Background Blobs */}
-      <div className="pointer-events-none absolute -top-32 right-0 h-[600px] w-[600px] rounded-full bg-gradient-to-br from-cyan-200/20 to-blue-300/10 blur-3xl" />
+      <div className= "pointer-events-none absolute -top-32 right-0 h-[700px] w-[700px] rounded-full bg-gradient-to-br from-[#D4A437]/20 via-[#0F4C81]/10 to-transparent blur-3xl"/>
 
       <div className="pointer-events-none absolute bottom-0 left-0 h-80 w-80 rounded-full bg-cyan-200/10 blur-3xl" />
 

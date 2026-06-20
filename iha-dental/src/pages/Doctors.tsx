@@ -81,15 +81,6 @@ export default function Doctors() {
                 <p className="mt-5 text-base leading-7 text-slate-500">
                   {doctor.description}
                 </p>
-
-                <button className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-[#0F4C81]">
-                  View Profile
-
-                  <ArrowRight
-                    size={16}
-                    className="transition-transform duration-300 group-hover:translate-x-1"
-                  />
-                </button>
               </div>
             </article>
           ))}

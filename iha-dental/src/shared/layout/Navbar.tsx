@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
         {/* Logo */}
         <a href="#top" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl">
+          <div className="flex h-13 w-13 items-center justify-center overflow-hidden rounded-xl">
             <img
               src={logo}
               alt="IHA Dental"
@@ -51,13 +51,14 @@ export default function Navbar() {
         </a>
 
         {/* Mobile CTA */}
-        <a
-          href={`tel:${CLINIC.phone}`}
-          className="flex items-center gap-2 rounded-lg border-[#D4A437] px-3 py-2 text-black transition-colors hover:text-[#0F4C81] lg:hidden"
-          aria-label="Call IHA Dental"
-        >
-          <Phone className="h-5 w-5" />
-          <span className="text-sm font-medium">Call Us</span>
+        <a href={`tel:${CLINIC.phone}`}
+        className="lg:hidden inline-flex items-center gap-2 rounded-full border border-[#D4A437]/40 bg-white px-4 py-2.5 text-sm font-semibold text-slate-900 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-[#D4A437] hover:shadow-md"
+    aria-label="Call IHA Dental">
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#D4A437]/10">
+          <Phone className="h-4 w-4 text-[#D4A437]" />
+        </div>
+
+        <span>Call us</span>
         </a>
       </div>
     </header>
