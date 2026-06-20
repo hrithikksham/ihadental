@@ -8,19 +8,19 @@ const galleryImages = [
     image: gallery1,
     title: "Reception & Waiting Lounge",
     description:
-      "A calm, modern environment where patient wellbeing, comfort, and personalized care come first.",
+      "A calm, modern environment where patient wellbeing, comfort, and personalized care .",
   },
   {
     image: gallery2,
     title: "Advanced Treatment Room",
     description:
-      "Modern equipment, digital precision, and evidence-based techniques working together to deliver exceptional patient care.",
+      "Modern equipment, digital precisions working together to deliver exceptional patient care.",
   },
   {
     image: gallery3,
     title: "Clinical Excellence",
     description:
-      "Professional certifications, specialized implantology training, and a dedication to clinical precision define every treatment we provide.",
+      "Restoring smiles, function, and confidence through advanced prosthodontic excellence",
   },
 ];
 
