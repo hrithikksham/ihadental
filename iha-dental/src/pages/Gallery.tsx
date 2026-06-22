@@ -1,5 +1,5 @@
 
-import gallery1 from "@/assets/clinic-01.jpg";
+import gallery1 from "@/assets/clinic-01.webp";
 import gallery2 from "@/assets/clinic-02.jpg";
 import gallery3 from "@/assets/clinic-03.webp";
 
