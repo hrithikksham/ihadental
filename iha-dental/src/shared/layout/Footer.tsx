@@ -46,17 +46,10 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61590874553431"
                 className="rounded-full border border-neutral-200 p-3 transition-all duration-300 hover:bg-neutral-100 hover:scale-105"
               >
                 <FaFacebook size={18} />
-              </a>
-
-              <a
-                href="#"
-                className="rounded-full border border-neutral-200 p-3 transition-all duration-300 hover:bg-neutral-100 hover:scale-105"
-              >
-                <FaLinkedin size={18} />
               </a>
             </div>
           </div>

@@ -56,7 +56,7 @@ export default function Location() {
               </div>
 
               <p className="mt-3 text-lg font-medium text-slate-950">
-                290/19, Anna Salai
+                290/19, Anna Salai, avoor road
               </p>
 
               <p className="mt-1 text-slate-500">
