@@ -1,4 +1,4 @@
-import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaFacebook } from "react-icons/fa";
 import logo from "@/assets/logo.webp";
 
 export default function Footer() {
